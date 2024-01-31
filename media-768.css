@@ -1,0 +1,226 @@
+@media screen and (max-width: 768px) {
+    .toggle {
+      display: block;
+      background: transparent;
+      border: none;
+      z-index: 6;
+    }
+    .nav-list {
+      display: none;
+    }
+    .active {
+      width: 100%;
+      display: block;
+      position: absolute;
+      flex-direction: column;
+      top: 0;
+      align-items: center;
+      text-align: center;
+      background-color: white;
+      z-index: 6;
+    }
+    .nav-list li {
+      margin-block: 30px;
+      font-size: 18px;
+    }
+    .Hero-content {
+      height: 100%;
+      flex-direction: column-reverse;
+      margin: 0;
+    }
+  
+    .hero-img {
+      width: 100%;
+    }
+    .play-demo p {
+      display: none;
+    }
+    .description {
+      display: inline;
+      width: 100%;
+      text-align: center;
+    }
+    .description #heading {
+      line-height: normal;
+    }
+    .description #tagline {
+      color: red;
+      font-weight: 600;
+    }
+    .description #para {
+      width: 100%;
+      text-align: center;
+    }
+    #traveller {
+      position: relative;
+      width: 100%;
+    }
+    .cta {
+      /* flex-wrap: nowrap; */
+      /* align-items: center; */
+      position: relative;
+      width: 100%;
+      margin-block:20px;
+    }
+    .category-container {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 30px;
+    }
+    .categorys {
+      width: 100%;
+      display: flex;
+      text-align: left;
+      gap: 10px;
+      padding: 0;
+    }
+    .categorys > div {
+      display: block;
+      margin-top: 0;
+      font-size: 14px;
+    }
+  
+    .flight-active {
+      position: relative;
+    }
+  
+    #crect {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  
+    .destination-list {
+      flex-direction: column;
+    }
+  
+    .destination {
+      width: 100%;
+    }
+  
+    .destination > div {
+      font-size: 0.8rem;
+      gap: 10px;
+    }
+  
+    .location {
+      margin-block: 0;
+    }
+  
+    .book-trip {
+      flex-wrap: wrap;
+      margin: 20px;
+      margin-bottom: 50px;
+    }
+  
+    .book-trip .img img {
+      width: 100%;
+    }
+    .testimonial-section {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .testimonals-section > .desc {
+      width: 100%;
+      text-align: center;
+    }
+    .testimonals-section #title {
+      width: 100%;
+    }
+    .testimonial-section .desc,
+    .cards {
+      width: 100%;
+    }
+    .testimonial-section .card-1 {
+      width: 100%;
+    }
+    .testimonals-section .cards {
+      width: 100%;
+      margin: 30px auto;
+      flex-direction: column;
+    }
+    .testimonals-section .cards #card-container {
+      flex-direction: column;
+      z-index: 0;
+    }
+    .testimonals-section .cards #logo {
+      position: relative;
+      width: 30%;
+      left: 35%;
+      top: 5%;
+    }
+    .elipse {
+      width: 50%;
+      margin: auto;
+    }
+    .testimonals-section .card-1 {
+      position: relative;
+      margin-top: 30px;
+      z-index: 1;
+      width: 90%;
+    }
+    .testimonals-section .card-2 {
+      position: relative;
+      z-index: -1;
+      top: 0%;
+      width: 60%;
+    }
+    .pagination {
+      margin-inline: auto;
+      transform: rotate(90deg);
+    }
+    .footer-list {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .cards {
+      margin-left: -50px;
+    }
+    .card-1,
+    .card-2 {
+      left: 0;
+    }
+    .company-cols {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .outbound {
+      align-items: center;
+    }
+  
+    .footer p {
+      text-align: center;
+    }
+  
+    .cp {
+      margin-top: 50px;
+    }
+    .company-cols {
+      width: 100%;
+    }
+    .mask {
+      /* background-position: center; */
+      display: flex;
+      flex-direction: column;
+    }
+    #message{
+      right: 40%;
+    }
+    .mask > div > p {
+      font-size: 1.2rem;
+      width: 80%;
+      text-align: center;
+      line-height: normal;
+    }
+    .mask #input input {
+      width: auto;
+    }
+    .mask #input button {
+      width: 100%;
+    }
+  }
+  
