@@ -67,7 +67,7 @@
 }
 .Hero-content {
   height: 500px;
-  margin:120px 20px;
+  margin: 120px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,14 +83,14 @@
   margin-block: auto;
 }
 .description #heading {
-  font-size: 2rem;
+  font-size: 4.8rem;
 }
 .description #tagline {
   color: #df6951;
   font-weight: 700;
 }
-.description #para{
-  font-size: 16px ;
+.description #para {
+  font-size: 16px;
 }
 .hero-img {
   top: -50%;
