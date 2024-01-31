@@ -10,6 +10,7 @@
   max-width: 1440px;
   margin: auto;
   position: relative;
+  border: 1px solid;
   /* overflow: hidden; */
 }
 
@@ -262,6 +263,7 @@
   align-items: center;
   flex-direction: row-reverse;
   justify-content: center;
+  margin: 20px;
 }
 
 .book-trip .img img {
@@ -390,9 +392,11 @@
   width: 100%;
   min-height: 300px;
   border-radius: 17.5px;
+  /* padding: 20px; */
 }
 
 .footer-list {
+  margin: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -443,6 +447,7 @@
   background-position: center;
   z-index: 2;
   background-color: white;
+  margin: 20px;
 }
 
 .mask #input {
