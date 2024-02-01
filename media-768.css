@@ -10,6 +10,7 @@
   }
   .active {
     width: 100%;
+    height: 100%;
     display: block;
     position: absolute;
     flex-direction: column;
@@ -18,15 +19,16 @@
     text-align: center;
     background-color: white;
     z-index: 6;
+    margin-top: -50px;
   }
   .nav-list li {
-    margin-block: 30px;
+    margin-block: 50px;
     font-size: 18px;
   }
   .Hero-content {
     height: 100%;
     flex-direction: column-reverse;
-    margin: 0;
+    margin: 20px;
   }
 
   .hero-img {
@@ -81,7 +83,10 @@
     gap: 3px;
     padding: 0;
   }
-
+  .Services {
+    margin: 20px;
+    margin-block: 50px;
+  }
   .categorys > div {
     display: block;
     margin-top: 0;
@@ -98,18 +103,23 @@
     left: 0;
     z-index: -1;
   }
-
+  .destinations {
+    margin: 20px;
+  }
   .destination-list {
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .destination {
-    width: 100%;
+    min-width: 80%;
+    margin-block: 20px;
   }
 
   .destination > div {
+    width: 100%;
     font-size: 0.8rem;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .location {
@@ -119,7 +129,7 @@
   .book-trip {
     flex-wrap: wrap;
     margin: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   .book-trip .img img {
@@ -221,15 +231,35 @@
     right: 40%;
   }
   .mask > div > p {
+    min-width: 80%;
+    left: 12%;
     font-size: 1.2rem;
-    width: 80%;
     text-align: center;
     line-height: normal;
   }
   .mask #input input {
-    width: auto;
+    width: 100%;
   }
   .mask #input button {
     width: 100%;
+  }
+  .mask #input div {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .mask #input div {
+    width: 100%;
+  }
+  .mask #input button{
+    width: 100%;
+  }
+  .mask > div > p {
+    max-width: 80%;
+    /* left: 12%; */
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: normal;
   }
 }
